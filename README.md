@@ -33,7 +33,7 @@ Clone the repository and fill out the bot-settings.json file.
 
 ## Download
 
-You can [download](https://github.com/F1shh-sec/RoleBot.git) the latest version on from this reposiroty.
+You can [download](https://github.com/F1shh-sec/RoleBot.git) the latest version on from this repository.
 
 ## Credits
 
