@@ -45,6 +45,6 @@ This software uses the following open source packages:
 
 ## License
 
-GNU PUBLIC LICENSE V3
+MIT
 
 ---
