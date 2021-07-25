@@ -1,3 +1,5 @@
+const bot_settings = require("../bot-settings.json");
+
 module.exports = {
     name: 'button',
     description: 'button for role select',
@@ -17,7 +19,7 @@ module.exports = {
                 .setColor('f2a299')
                 .setTitle(`Select Your Roles`)
                 .setDescription('Click on a button to gain access to a role. To remove yourself from the role, click the button again.')
-                .setThumbnail('https://i.imgur.com/UPrTHRZ.png');
+                .setThumbnail(bot_settings.imagelink);
 
             let button_array = [];
             var title_count = 0;

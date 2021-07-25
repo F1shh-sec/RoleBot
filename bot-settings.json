@@ -2,7 +2,8 @@
     "req_dms": false,
     "prefix": ";",
     "token": "",
-    "default_server_id": "865016185460097044",
-    "default_channel_id": "865016186319405082",
-    "default_admin_role_id": "519697336281071647"
+    "default_server_id": "",
+    "default_channel_id": "",
+    "default_admin_role_id": "",
+    "imagelink": ""
 }
