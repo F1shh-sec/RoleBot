@@ -11,13 +11,13 @@ var fs = require('fs');
 let current_server = {
     // Variables
     _msg_limit: 10,
-    _id: "519697336281071647",
+    _id: bot_settings.default_server_id,
     _guild: null,
-    _channel_id: '519697336281071651',
+    _channel_id: bot_settings.default_channel_id,
     _dm_channel: null,
     _channel: null,
     _roles: [],
-    _lobster_id: '865016185850822679',
+    _lobster_id: bot_settings.default_admin_role_id,
     // Setters
     set add_role(x){
         this._roles.push(x);
