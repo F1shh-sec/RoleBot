@@ -10,23 +10,7 @@ let text_colors = {
     bright_hex: `\x1b[1m`,
     rst_hex: '\x1b[0m'
 };
-function printLogo() {
-
-    const lc = `\x1b[0m\x1b[2m\x1b[33m`;
-    const bc = `\x1b[0m\x1b[1m\x1b[36m`;
-
-    console.log(`      ${lc}█████${bc}▒${lc}██${bc}▓  ${lc}██████  ${lc}██${bc}░ ${lc}██  ██${bc}░ ${lc}██    ${bc}▓${lc}█████▄  ██▀███   ▄▄▄     ▄▄▄█████${bc}▓
-    ▓${lc}██   ${bc}▒▓${lc}██${bc}▒▒${lc}██    ${bc}▒ ▓${lc}██${bc}░ ${lc}██${bc}▒▓${lc}██${bc}░ ${lc}██${bc}▒   ▒${lc}██▀ ██▌${bc}▓${lc}██ ${bc}▒ ${lc}██${bc}▒▒${lc}████▄   ${bc}▓  ${lc}██${bc}▒ ▓▒
-    ▒${lc}████ ${bc}░▒${lc}██${bc}▒░ ▓${lc}██▄   ${bc}▒${lc}██▀▀██${bc}░▒${lc}██▀▀██${bc}░   ░${lc}██   █▌${bc}▓${lc}██ ${bc}░${lc}▄█ ${bc}▒▒${lc}██  ▀█▄ ${bc}▒ ▓${lc}██${bc}░ ▒░
-    ░▓${lc}█${bc}▒  ░░${lc}██${bc}░  ▒   ${lc}██${bc}▒░▓${lc}█ ${bc}░${lc}██ ${bc}░▓${lc}█ ${bc}░${lc}██    ${bc}░▓${lc}█▄   ▌${bc}▒${lc}██▀▀█▄  ${bc}░${lc}██▄▄▄▄██${bc}░ ▓${lc}██${bc}▓ ░ 
-    ░▒${lc}█${bc}░   ░${lc}██${bc}░▒${lc}██████${bc}▒▒░▓${lc}█${bc}▒░${lc}██${bc}▓░▓${lc}█${bc}▒░${lc}██${bc}▓   ░▒${lc}████${bc}▓ ░${lc}██${bc}▓ ▒${lc}██${bc}▒ ▓${lc}█   ▓${lc}██${bc}▒ ▒${lc}██${bc}▒ ░ 
-     ▒ ░   ░▓  ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒ ▒ ░░▒░▒    ▒▒▓  ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒${lc}█${bc}░ ▒ ░░   
-     ░      ▒ ░░ ░▒  ░ ░ ▒ ░▒░ ░ ▒ ░▒░ ░    ░ ▒  ▒   ░▒ ░ ▒░  ▒   ▒▒ ░   ░    
-     ░ ░    ▒ ░░  ░  ░   ░  ░░ ░ ░  ░░ ░    ░ ░  ░   ░░   ░   ░   ▒    ░      
-            ░        ░   ░  ░  ░ ░  ░  ░      ░       ░           ░  ░        
-                                            ░                                 \x1b[0m`);
-}
 
 module.exports = {
-    text_colors, printLogo
+    text_colors
 };
