@@ -1,3 +1,6 @@
+/**
+ * Text colors for console output formatting. Not very useful but good to have.
+ */
 let text_colors = {
     server_color: `\x1b[35m`,
     id_color: `\x1b[31m`,

@@ -1,13 +1,10 @@
-const { default: discordButtons } = require('discord-buttons');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 require ('discord-buttons')(client);
 const bot_settings = require('./bot-settings');
 var fs = require('fs');
 
-// Creates a object to store which server is being moderated
-
-
+// Creates a object to store which information about the current server
 let current_server = {
     // Variables
     _msg_limit: 10,
@@ -74,22 +71,25 @@ let current_server = {
 //sets the guild parameter.
 client.guilds.fetch(current_server.id).then(newguild => current_server.guild = newguild);
 
+// Gets information form roles.json and stores it in the current_server.roles
 var data = fs.readFileSync('roles.json');
 var roles = JSON.parse(data).roles;
-
 roles.forEach(elm =>{
     current_server.add_role = elm;
 });
+
+// These should always match or we messed up
 console.log(roles)
 console.log(current_server.roles)
+
+
 // Starts up the handlers.
 client.commands = new Discord.Collection();
 client.events = new Discord.Collection();
-
 ['command_handler', 'event_handler'].forEach(handler =>{
     //passes the current server to each of the handlers
     require(`./handlers/${handler}`)(client, Discord, current_server)
 })
 
-
+//Logs in with the token 
 client.login(bot_settings.token);
