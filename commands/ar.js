@@ -1,5 +1,3 @@
-const format = require('../bot_format');
-const text_colors = format.text_colors;
 const fs = require('fs');
 module.exports = {
     name: 'ar',
