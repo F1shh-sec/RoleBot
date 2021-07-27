@@ -31,6 +31,11 @@
 
 Clone the repository and fill out the bot-settings.json file.
 
+<b>Add Role:</b>;ar @role
+<b>remove role:</b> ;rr @role
+<b>Create an updated button embed:</b> ;button
+
+
 ## Download
 
 You can [download](https://github.com/F1shh-sec/RoleBot.git) the latest version on from this repository.
