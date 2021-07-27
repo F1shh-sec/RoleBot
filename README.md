@@ -31,9 +31,9 @@
 
 Clone the repository and fill out the bot-settings.json file.
 
-<b>Add Role:</b>;ar @role
-<b>remove role:</b> ;rr @role
-<b>Create an updated button embed:</b> ;button
+<b>Add Role:</b>;ar @role </br>
+<b>remove role:</b> ;rr @role </br>
+<b>Create an updated button embed:</b> ;button </br>
 
 
 ## Download
